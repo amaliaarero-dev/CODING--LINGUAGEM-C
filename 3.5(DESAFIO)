@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main() {
+int horas;
+int valorBase;
+int tipoCliente;
+float desconto;
+float valorFinal;
+printf ("hora\n");
+scanf("%d", &valorBase);
+printf("cliente\n");
+scanf("%d", &tipoCliente);
+if (horas <= 1) {
+valorBase = 5.0;
+} else if (horas <= 3) {
+valorBase = 10.0;
+} else {
+valorBase = 15.0;
+}
+if (tipoCliente == 2) {
+desconto = valorBase * 0.20;
+printf("desconto: %.2f\n", desconto);
+} else {
+desconto = 0.0;
+}
+valorFinal = valorBase - desconto;
+printf("valorFinal: %.2f\n", valorFinal);
+return 0;
+}
