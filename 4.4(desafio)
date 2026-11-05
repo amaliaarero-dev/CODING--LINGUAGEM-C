@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main(void) {
+int senha;
+int incorreta;
+int tentativas = 0;
+while (tentativas < 3) {
+printf ("senha:");
+scanf ("%d", &senha);
+if (senha == 1234) {
+printf("acesso permitido\n");
+break;
+}
+printf("senha incorreta\n");
+tentativas++;
+} if (incorreta) {
+printf("usuario bloqueado\n");
+}
+return 0;
+    }
