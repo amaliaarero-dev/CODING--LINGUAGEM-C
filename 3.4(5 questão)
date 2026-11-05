@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+double Valor;
+double Desconto;
+printf("Valor: ");
+scanf("%lf", &Valor);
+if (Valor >= 500.0) {
+Desconto = Valor * 0.10;
+} else if (Valor >= 200.0) {
+Desconto = Valor * 0.05;
+} else {
+Desconto = 0.0;
+}
+printf ("%.2f\n", Desconto);
+return 0;
+}
