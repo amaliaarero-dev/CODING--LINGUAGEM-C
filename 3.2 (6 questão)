@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void) {
+int usuariovalido;
+int senhacorreta;
+int login;
+if (usuariovalido) {
+if (senhacorreta) {
+printf("login realizado\n");
+} else {
+printf("usuario inexistente\n"); }
+return 0;
+}
