@@ -1,0 +1,53 @@
+#include <stdio.h>
+int maino) {
+int opcao;
+do {
+printf("1 - Somar\n");
+printf("2 - Media\n");
+printf("3 - Tabuada\n");
+printf("0 - Sair\n");
+scanf ("%d", &opcao);
+switch (opcao) {
+case 1:
+int a, b;
+printf("digite o primeiro numero:");
+scanf ("%d", &a);
+printf("digite o segundo numero:");
+scanf ("%d", &b);
+int soma = a + b;
+printf("soma = %d\n", soma);
+break;
+case 2:
+float c, d;
+printf("Digite o primeiro numero: ");
+scanf ("%f", &c);
+printf("Digite o segundo numero: ");
+scanf ("%f", &d);
+float media = (c + d) / 2;
+printf ("Media = %.2f\n", media);
+    break;
+case 2:
+float c, d;
+printf("Digite o primeiro numero: ");
+scanf ("%f", &C);
+printf( "Digite o segundo numero: ");
+scanf ("%f", &d);
+float media = (c + d) / 2;
+printf( "Media = %.2f\n", media);
+break;
+case 3:
+int numero;
+printf( "numero:");
+scanf ("%d", &numero);
+for (int i =1; i <= 10; i++) {
+printf("%d x %d\n", numero, i, numero * i);
+｝
+break;
+case 0:
+printf ("Encerrando...\n");
+break; default:
+printf("Opcao invalida\n");
+}
+} while (opcao != 0);
+return 0;
+}
