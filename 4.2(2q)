@@ -1,0 +1,10 @@
+ #include <stdio.h>
+int main(void) {
+int opcao;
+int menu;
+do {
+printf ("MENU:"); 
+scanf ("%d", &opcao);
+}while (opcao >= 3 );
+return 0;
+}
