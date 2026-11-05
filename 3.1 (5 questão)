@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(void) {
+    int nota;
+    scanf("%d", &nota);
+    if (nota >= 7) {
+        printf("nota boa\n");
+    } else if (nota >= 5) {
+        printf("nota boa\n");
+    }
+    return 0;
+}
