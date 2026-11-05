@@ -1,0 +1,10 @@
+#include <stdio.h>
+double calcularMedia(double n1, double n2) {
+double media = (n1 + n2) / 2.0;
+return media;
+}
+int main(void) {
+double media = calcularMedia (8,9);
+printf("%.21f\n", media);
+    return 0;
+}
