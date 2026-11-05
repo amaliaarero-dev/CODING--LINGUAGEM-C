@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(void) {
+ int idade;
+printf("digite sua idade: ");
+scanf ("%d", &idade);
+if (idade >= 18 && idade <= 65) {
+printf("faixa etaria permitida\n");
+} else {
+printf("faixa etaria nao permitida\n"); }
+return 0;
+}
