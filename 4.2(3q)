@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main(void) {
+int opcao;
+do {
+printf ("1- cadastrar\n");
+printf("2- consultar\n");
+printf("0- sair\n");
+printf("opcao:");
+scanf ("%d", &opcao);
+switch(opcao) {
+case 1:
+printf("cadastrar\n");
+break;
+case 2:
+printf("consultar\n");
+break;
+case 0:
+printf("encerrando...\n");
+break; default:
+printf("opcao invalida\n");
+}
+} while (opcao >= 3 );
+return 0;
+}
