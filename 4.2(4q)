@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void) {
+float nota;
+printf ("digite uma nota entre 0 e 10:");
+scanf("%f", &nota);
+while (nota < 0 || nota > 10) {
+printf("nota invalida. digite novamente:");
+scanf ("%f", &nota);
+}
+printf("nota aceita:%.2f\n", nota);
+    return 0;
+}
