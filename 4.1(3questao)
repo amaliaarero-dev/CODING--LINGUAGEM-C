@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(void){
+int contador = 1;
+float nota;
+float soma = 0;
+while(contador<=5){
+printf("nota %d:", contador);
+scanf("%f", &nota); 
+soma+=nota;
+}
+float media = soma/5.0f;
+printf("media= %.2f\n", media);
+return 0;
+}
