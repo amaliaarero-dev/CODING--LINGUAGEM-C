@@ -1,0 +1,41 @@
+#include <stdio.h>
+int main(void){
+int opcao;
+int resultado;
+int a;
+int b;
+printf("1- somar\n");
+printf("2- subtrair\n");
+printf("3- multiplicar\n");
+printf("4- dividr\n");
+scanf("%d", &opcao );
+printf( "Digite um numero\n");
+scanf ("%d", &a);
+printf("Digite um numero\n");
+scanf ("%d", &b);
+switch(opcao) {
+case 1:
+resultado = a + b;
+printf("%d\n", resultado);
+break;
+case 2:
+resultado = a - b;
+printf("%d\n", resultado);
+break;
+case 3:
+resultado = a * b;
+printf("%d\n", resultado);
+break;
+case 4:
+if (b !=0) {
+resultado = a/b;
+printf("%f\n", resultado);
+}else{
+printf("divisao por zero nao permitida\n");
+}
+break;
+default:
+printf("Opcao invalida\n");
+}
+return 0;
+}
