@@ -1,0 +1,52 @@
+#include <stdio.h>
+int main() {
+int opcao;
+char nome[100] = "";
+double a, b, resultado;
+double media = 0.0;
+do {
+printf("\n==Sistema academico==\n");
+printf("1- cadastrar aluno\n");
+printf("2- somar nota\n");
+printf("3- calcular media\n"):
+printf("4- verificar aprovacao\n");
+printf("5- mostrar relatorio\n"):
+printf("6- sair\n");
+printf("Escolha uma opcao: ");
+scanf ("%d", &opcao);
+getchar():
+if (opcao == 1) {
+printf("nome completo: "):
+fgets(nome, 100, stdin);
+} else if (opcao == 2 || opcao == 3) {
+printf("digite o primeiro numero: ");
+scanf ("%1f", &a);
+printf("digite o segundo numero: ");
+scanf ("%lf", &b);
+    if (opcao == 2) {
+resultado = a + b;
+printf("soma: %.21f\n", resultado);
+} else {
+media = (a + b) / 2.0;
+printf("media: %.21f\n", media);
+｝
+} else if (opcao == 4) {
+if (media >= 7) {
+printf ("Aprovado\n");
+｝ else｛
+printf ("Reprovado\n");
+}
+} else if (opcao == 5) {
+printf（"\n==Relatorio==\n"）；
+printf("Aluno: %s", nome);
+printf ("Media: %.21f\n", media);
+if (media >= 7) {
+printf("Situacao: Aprovado\n");
+} else {
+printf("Situacao: Reprovado\n");
+｝
+} else if (opcao != 6) {
+printf("Opcao invalida\n");
+}
+return 0;
+}
