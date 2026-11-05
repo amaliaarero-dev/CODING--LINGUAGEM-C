@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(void) {
+int idade;
+if(idade <= 18 && idade >= 65);
+    {
+printf("fora da faixa\n");
+    }
+return 0;
+}
