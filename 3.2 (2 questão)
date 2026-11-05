@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+int main() {
+int dia;
+int bloqueado;
+printf("digite o dia: ");
+scanf("%d", &dia);
+if (dia == 6 || dia ==7) {
+printf("fim de semana\n"); }
+if (!bloqueado) {
+printf("acesso permitido\n");
+｝
+return 0;
+}
