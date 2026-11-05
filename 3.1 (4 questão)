@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void) {
+    float media;
+    printf("digite a media:\n");
+    scanf("%f", &media);
+    if(media >= 7.0f) {
+        printf("aprovado\n");
+    }else {
+        printf("reprovado\n");
+    }
+    return 0;
+}
