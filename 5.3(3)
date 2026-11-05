@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main(void) {
+printf("=======================\n");
+printf(" SISTEMA DE GESTÃO DE ESTOQUE\n");
+printf("=======================\n");
+int opcao = 0;
+while (opcao != 3) {
+printf("1. Listar Produtos\n");
+printf("2. Adicionar Produto\n");
+printf("3. Sair\n");
+printf( "Escolha uma opção: ");
+scanf ("%d", &opcao);
+if (opcao == 1) {
+printf("--- Exibindo lista de produtos...
+\n");
+} else if (opcao == 2) {
+printf("--- Cadastrando novo produto... ---
+\n");
+} else if (opcao != 3) {
+printf("Opção inválida! Tente novamente\n");
+}
+}
+    printf("Obrigado por usar o sistema! Até logo.\n");
+return 0;
+}
