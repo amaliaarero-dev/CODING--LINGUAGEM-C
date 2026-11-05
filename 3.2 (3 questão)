@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(void) {
+float media;
+int estudante;
+int idade;
+int frequencia;
+int bloqueado;
+printf("digite sua media, idade e frequencia:");
+scanf("%f %d %d", &media, &idade, &frequencia);
+if (media >= 7.0f && frequencia >= 75.0f) {
+printf("aprovado\n");
+} if (estudante || idade >= 60) {
+printf("desconto aplicado\n");
+} if (idade >= 18 && !bloqueado) {
+printf("entrada permitida\n");
+}
+return 0;
+}
