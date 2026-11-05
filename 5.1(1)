@@ -1,0 +1,9 @@
+#include <stdio.h>
+void mostrarDobro(int numero) {
+printf("%d\n", numero * 2);
+}
+int main(void) {
+mostrarDobro(12);
+mostrarDobro(4);
+return 0;
+}
