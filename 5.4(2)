@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdbool.h>
+bool podeEntrar(int idade, bool bloqueado, bool ingresso) {
+return idade >= 18&& !bloqueado;
+int main() {
+int idade;
+int bloqueado; 
+int ingresso;
+printf("digite a idade:");
+scanf("%d", &idade);
+printf("esta bloqueado? (1 = sim, 0 = nao):");
+scanf ("%d", &bloqueado);
+printf("possui ingresso? (1 = sim, 0 = nao):");
+scanf("%d", &ingresso);
+if (podeEntrar (idade, bloqueado, ingresso)) {
+printf("liberado\n");
+} else｛
+printf("bloqueado\n");
+}
+return 0;
+    }
