@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+int quantidade;
+float nota;
+float soma = 0;
+printf("quantidade de notas:");
+scanf("%d", &quantidade);
+for (int i = 1; i <= quantidade; i++) {
+printf("nota %d:", i);
+scanf("%f"
+, &nota);
+soma += nota;
+}
+printf("media: %.2f\n", soma/quantidade);
+return 0;
+}
