@@ -1,0 +1,10 @@
+#include <stdio.h>
+void mostrarProduto(int a, int b) {
+printf("%d\n", a*b);
+}
+int main(void) {
+mostrarProduto(5,3);
+mostrarProduto(-1,-2);
+mostrarProduto(5,0);
+return 0;
+}
