@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(void) {
+int quantidade = 0;
+float nota;
+float soma = 0;
+printf("digite uma nota ou -1 para sair:");
+scanf("%f", &nota);
+while (nota !=-1) {
+soma += nota; quantidade++;
+printf("digite uma nota ou -1 para sair:");
+scanf("%f", &nota);
+}
+if(quantidade > 0) {
+printf("media=%.2f\n", soma/quantidade);
+}
+return 0;
+}
