@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(void) {
+int numero;
+int maior;
+scanf ("%d", &maior);
+for (int i = 2; i <= 5; i++) {
+scanf("%d", &numero);
+if ( numero > maior) {
+maior = numero;
+}
+return 0;
+}
+printf ("maior = %d\n", maior);
+}
