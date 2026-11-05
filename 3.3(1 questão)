@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main(void){
+int opcao;
+printf("1- Cadastrar\n");
+printf("2- Consultoria\n");
+printf("3- sair\n");
+printf("Opcao: ");
+scanf ("%d", &opcao);
+switch(opcao) {
+case 1:
+printf( "Cadastrar\n");
+break;
+case 2:
+printf("Consultar\n");
+break;
+case 3:
+printf("Sair\n");
+break;
+case 9:
+printf("realizado\n");
+default:
+printf("Opcao invalida\n");}
+return 0;
+}
