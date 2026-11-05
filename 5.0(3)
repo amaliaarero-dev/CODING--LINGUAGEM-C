@@ -1,0 +1,10 @@
+#include <stdio.h>
+void mostrarCabecalho(void) {
+printf("=============\n");
+printf("SISTEMA CODING\n");
+printf("===============\n");
+}
+int main(void) {
+mostrarCabecalho();
+return 0;
+}
