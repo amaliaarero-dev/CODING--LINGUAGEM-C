@@ -1,0 +1,10 @@
+#include <stdio.h>
+double calcularDesconto(double valor, double percentual);
+int main(void) {
+printf("desconto 1 (100 com 10%%): R$ %.2f\n" , calcularDesconto (100.0, 10.0));
+printf("desconto 2 (500 com 50%%): R $%.2f\n", calcularDesconto(500.0, 50.0));
+return 0;
+}
+double calcularDesconto(double valor, double percentual) {
+return (valor * percentual) / 100.0;
+}
